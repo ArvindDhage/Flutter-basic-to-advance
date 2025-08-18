@@ -1,4 +1,4 @@
-// var keyword 
+// var keyword        
 //  var accept all type of data 
 void main(){
   var a = 10;
