@@ -1,4 +1,4 @@
-// String data type
+// String data type  
 void main(){
   String name ="Arvind";
   String surname="Dhage";
