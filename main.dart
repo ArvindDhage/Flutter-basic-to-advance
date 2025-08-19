@@ -1,36 +1,8 @@
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(const MyApp());
+import 'person.dart';
+void main(){
+  Person person =Person('Arvind',23,'India');
+  print(person.name);
+  print(person.age);
+  
 }
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: const Text("My First Flutter App")),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              const Text(
-                "Hello Flutter!",
-                style: TextStyle(fontSize: 24),
-              ),
-              const SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  print("Button Pressed");
-                },
-                child: const Text("Click Me"),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
+//Encapsulation in Dart means hiding data inside a class and giving controlled access to it using methods or properties.
