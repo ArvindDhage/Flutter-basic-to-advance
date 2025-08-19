@@ -5,3 +5,5 @@ void main (){
     print(number[i]);
   }
 }
+
+//if you dont know length of list then you will use   for(int i=0;i< number.length ;i++)
